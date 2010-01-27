@@ -16,4 +16,4 @@ World do
   Webrat::Session.new(Webrat::MechanizeAdapter.new)
 end
 
-
+World(Webrat::Matchers)
